@@ -15,13 +15,15 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.grey,
         body: SafeArea(
-            child: Container(
-              color: Colors.red,
-              child: Text('Hello World'),
-              height: 200,
-              width: 200,
-              margin: EdgeInsets.,
-        )),
+          child: Container(
+            color: Colors.red,
+            height: 150,
+            width: 150,
+            child: const Center(
+                child: Text(
+                    'This is a container which allows single child layout ')),
+          ),
+        ),
       ),
       debugShowCheckedModeBanner: false,
     );
